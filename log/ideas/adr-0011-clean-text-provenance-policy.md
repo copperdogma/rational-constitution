@@ -31,7 +31,7 @@ Adopt a clean-text provenance policy:
   - Added rules to enforce clean-text provenance and ADR discipline.
 
 ## Links
-- Draft history: `log/ideas/_drafts/session-20251112-1300-provenance-policy-clean-text.md`
+- Draft history: `log/ideas/_drafts/_archived/session-20251112-1300-provenance-policy-clean-text.md`
 - Related change: ADR-0010 (Foundational Design Principles in the Preamble)
 
 ## Notes

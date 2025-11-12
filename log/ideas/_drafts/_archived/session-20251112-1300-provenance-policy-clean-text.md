@@ -1,4 +1,5 @@
 # ADR Draft — Clean-Text Provenance Policy
+Status: Finalized — See ADR-0011 (`log/ideas/adr-0011-clean-text-provenance-policy.md`)
 Timestamp: 2025-11-12 13:00
 
 ## Summary

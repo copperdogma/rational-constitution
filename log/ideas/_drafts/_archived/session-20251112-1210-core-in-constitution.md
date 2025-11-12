@@ -1,4 +1,5 @@
 # ADR Draft — Surface the Constitutional Core in Article I
+Status: Finalized — See ADR-0010 (`log/ideas/adr-0010-foundational-design-principles-in-preamble.md`)
 Timestamp: 2025-11-12 12:10
 
 ## Summary
