@@ -1,5 +1,13 @@
 # Changelog: Evolution of the Civic Mandate Republic
 
+## 2025-11-12 — Foundational Design Principles and Clean-Text Provenance
+- Constitution: Added “Foundational Design Principles” (M‑5) in the Preamble and an “Interpretive Use” clause (non‑self‑executing).  
+- Constitution: Added a chapeau under Article I linking structure to the Principles.  
+- ADR-0010: Accepted — Foundational Design Principles in the Preamble (with Interpretive Use).  
+- Process: Adopted clean-text provenance policy (no inline markers); created `log/provenance.md` as out‑of‑band index.  
+- Tooling/Docs: Updated `/record`, `/validate`, `/check-in` behavior and added `.mdc/rules.md` for provenance checks.  
+- Impact: Clear interpretive anchor at the start of the Constitution; improved provenance without modifying governed texts.
+
 ## 2025-11-11 — Full Structural Integration & Repository Expansion
 - Updated **Rational Constitution** to merge all reforms from the prior amendment bundle directly into core text.  
 - Added **Article VIII** establishing the **Chancellor** and **Executive Council** as the formal executive branch.  
