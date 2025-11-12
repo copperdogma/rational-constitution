@@ -4,6 +4,7 @@
 - Constitution: Added “Foundational Design Principles” (M‑5) in the Preamble and an “Interpretive Use” clause (non‑self‑executing).  
 - Constitution: Added a chapeau under Article I linking structure to the Principles.  
 - ADR-0010: Accepted — Foundational Design Principles in the Preamble (with Interpretive Use).  
+- ADR-0011: Accepted — Clean-Text Provenance Policy; no inline markers; provenance index added.  
 - Process: Adopted clean-text provenance policy (no inline markers); created `log/provenance.md` as out‑of‑band index.  
 - Tooling/Docs: Updated `/record`, `/validate`, `/check-in` behavior and added `.mdc/rules.md` for provenance checks.  
 - Impact: Clear interpretive anchor at the start of the Constitution; improved provenance without modifying governed texts.
