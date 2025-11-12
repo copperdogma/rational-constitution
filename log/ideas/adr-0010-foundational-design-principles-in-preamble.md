@@ -25,8 +25,7 @@ Adopt the minimized set (Option M‑5), titled “Foundational Design Principles
   - I. Foundations: added chapeau line tying structure to Principles.
 
 ## Links
-- Draft history: `log/ideas/_drafts/_archived/session-20251112-1210-core-in-constitution.md`
-- Related policy: Clean-Text Provenance — `log/ideas/_drafts/_archived/session-20251112-1300-provenance-policy-clean-text.md`
+- Related policy: ADR-0011 (Clean-Text Provenance Policy)
 
 ## Notes
 - Acts and amendments shall be drafted to adhere to the Principles and interpreted to further them, consistent with Article IX.  

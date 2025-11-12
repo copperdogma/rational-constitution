@@ -37,7 +37,9 @@ When conversation touches on constitutional or structural topics:
    - Pause current ADR (record timestamp).
    - Start or switch to a new ADR draft.
 4. ADR drafts remain until `/record` finalizes them into numbered ADRs.
-5. Old drafts remain archived for full historical transparency.
+5. Upon finalization via `/record`, drafts are promoted to numbered ADRs and the draft files are removed (not archived) by default. Git history preserves all draft evolution. If you explicitly mark a draft as Paused, it may remain in `_drafts/` until resumed or discarded.
+
+Before `/check-in`, all active ADR drafts must be finalized via `/record`. The only drafts allowed to remain are those explicitly marked Paused by the user.
 
 ---
 
@@ -140,7 +142,7 @@ When proposing or revising anything, the AI must evaluate compliance with each t
 
 1. **Discuss freely.** Cursor auto-records into current ADR draft.
 2. **Use `/converge`** to review and gauge readiness.
-3. **Decide:** if Ready → `/record`; if not → keep discussing.
+3. **Decide:** if Ready → `/record`; if not approving now, either `/record` as Rejected or explicitly mark the draft as Paused.
 4. **Run `/validate`** to verify compliance and coherence.
 5. **Approve `/check-in`** to finalize, commit, and push.
 
