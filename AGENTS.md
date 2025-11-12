@@ -9,13 +9,16 @@ All deliberation is recorded through automatically maintained ADR drafts; all fi
 ## Guardrails
 - Only edit files when asked; **/check-in** is the explicit commit/push trigger.
 - During **/check-in**, the **only content change** allowed is updating `log/changelog.md`.
-- Keep constitutional/act text clean; use a single-file provenance marker (see below).
+- Keep constitutional/act text clean; no inline provenance markers or footers.
 - Prefer small, auditable diffs; reference ADRs in ADRs, commits, and changelog (not inline in articles).
 
 ## Provenance (per file)
-- Add a single, non-intrusive marker at file top:
-  <!-- provenance: adr-0009, adr-0006 -->
-- Detailed mapping lives in ADRs, commits, and changelog.
+- No inline markers in governed texts (e.g., `constitution.md`, `acts/*.md`).
+- Provenance is maintained via:
+  - ADRs (drafts and finals) with clear “Changed Sections”,
+  - commit messages referencing ADR IDs/titles, and
+  - `log/changelog.md` entries linking ADRs to specific files/sections.
+- A concise, out-of-band provenance index is kept at `log/provenance.md` mapping files → ADRs/commits. It is updated at `/record` and is safe to publish; it does not modify governed texts.
   
 ---
 
@@ -113,21 +116,12 @@ When proposing or revising anything, the AI must evaluate compliance with each t
 
 **Purpose:** maintain clean text while preserving full traceability.
 
-- Each governed file (e.g., `constitution.md`, `acts/*.md`) includes one silent provenance marker at the top.
-- Use an HTML comment in reverse-chronological order:
-  <!-- provenance: adr-0009, adr-0006 -->
-
-- Never embed ADR references inline in the text.
-- Detailed section mapping lives in:
-  - the **ADR** itself (under “Links” or “Changed Sections”),
-  - the **commit message**, and
-  - the **changelog**.
-
-If a file is meant for public consumption (e.g., published Acts):
-- Add a small footer line instead of an HTML comment:
-  > History: updated per adr-0009 (see `log/ideas/adr-0009-...md`)
-
-When exporting or publishing externally, you can safely strip these comments; provenance persists via ADRs, commits, and changelog.
+- No inline provenance markers or footers in governed texts (e.g., `constitution.md`, `acts/*.md`).
+- Provenance is maintained via:
+  - ADRs (drafts and finals) with clear “Changed Sections,”
+  - commit messages referencing ADR IDs/titles, and
+  - `log/changelog.md` entries linking ADRs to specific files/sections.
+- A concise, out-of-band provenance index at `log/provenance.md` maps files → ADRs/commits and sections; it is updated at `/record` and does not modify governed texts. It is safe to publish and can be regenerated from ADRs and git history.
 
 ---
 

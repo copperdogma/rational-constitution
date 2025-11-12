@@ -40,3 +40,10 @@
 
 - Executive Council accountability: What measurable selection, rotation, and performance metrics ensure the nonpartisan expert council remains aligned and auditable over time?
 
+- What about something like a Bill of Rights? That's typically in a constitution, right?
+
+- Are we missing any fundamental parts of a constitution?
+
+- Should major Acts include a published “Core Compliance Statement” in the Civic Outcomes Ledger? What threshold defines “major,” and who verifies completeness?
+- How do we phrase the Core in Article I to avoid redundancy with `IV. Economic Order` and `X. Transparency` while keeping it explicit and useful?
+- Best placement for the Core: embedded under `I. Foundations` vs. a standalone article; any downstream effects on interpretation or numbering?

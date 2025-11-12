@@ -3,11 +3,23 @@
 
 ### **Preamble**
 
-Recognizing that humans act from self-interest, that power seeks concentration, and that competition and transparency turn vice into public good, the people establish this Constitution to secure liberty, prosperity, and justice through structure, not virtue.
+Recognizing that humans act from self-interest, that power seeks concentration, and that competition and transparency turn vice into public good, the people establish this Constitution to secure liberty, prosperity, and justice through well-formed structure, not virtue.
+
+#### Foundational Design Principles
+1. Incentive‑compatible design — assume self‑interest; harness it toward public good.  
+2. Distributed accountability — power diffused with checks, subsidiarity, and retroactive liability.  
+3. Transparency by default — public information and decision‑making rationales are open by default; exceptions are narrow and time‑bound.  
+4. Outcomes and evidence — citizens set goals; administration executes within law and metrics.  
+5. Market test with priced externalities — use competitive mechanisms and price externalities where they best achieve goals.  
+
+#### Interpretive Use
+In cases of ambiguity, institutions shall prefer readings consistent with these Foundational Design Principles. They guide interpretation and amendment but are not, by themselves, grounds to invalidate law; compliance is ensured through the Civic Outcomes Ledger, audits, and processes defined by this Constitution and Acts. Acts and amendments shall be drafted to adhere to these Principles and interpreted to further them, consistent with Article IX.
 
 ---
 
 ### **I. Foundations**
+
+These Foundations implement the Foundational Design Principles stated in the Preamble.
 
 1. **Rule of Law** – No one is above or outside law. Rights and obligations apply equally to citizens, officials, and corporations.  
 2. **Limited and Divided Power** – Legislative, executive, and judicial powers are separate, checking one another by design.  

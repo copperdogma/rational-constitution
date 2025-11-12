@@ -14,7 +14,12 @@ git log --oneline -5
 	•	the approved ADR(s)
 	•	requirements in AGENTS.md (standards, core tenets)
 	•	previous version of the document (if applicable)
-	•	Check for completeness, style, formatting, numbering consistency, and provenance markers.
+	•	Check for completeness, style, formatting, numbering consistency.
+	•	Provenance policy compliance:
+		- No inline provenance markers in governed texts (`constitution.md`, `acts/*.md`).
+		- ADR includes “Changed Sections” mapping files/sections.
+		- Changelog entry prepared (not inserted) referencing ADR(s).
+		- `log/provenance.md` updated/generated at `/record`.
 
 3. Score Each Requirement / Tenet
 
