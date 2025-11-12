@@ -1,6 +1,7 @@
 When this command is invoked:
-1. Finalize the current ADR draft into a numbered ADR (next available ID).
-   - Include full context, final decision, and links to draft history.
+1. Finalize the current ADR draft into a numbered ADR (next available ID) using promote-by-rename (see `AGENTS.md` → “ADR Finalization Guidelines”).
+   - Move + rename the draft from `log/ideas/_drafts/session-...-topic.md` to `log/ideas/adr-XXXX-kebab-title.md`.
+   - Update Title/Number, `Status`, and `Date`; ensure ADR template sections are present; add “Changed Sections” and Links as needed.
    - Mark `Status: Accepted` if Ready; `Status: Rejected` if not.
 2. If Accepted:
    - Prepare the edits to `constitution.md` and/or `acts/*.md`.

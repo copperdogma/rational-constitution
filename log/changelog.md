@@ -9,6 +9,7 @@
 - Tooling/Docs: Updated `/record`, `/validate`, `/check-in` behavior and added `.mdc/rules.md` for provenance checks; clarified `/check-in` is single-use authorization only.  
 - Impact: Clear interpretive anchor at the start of the Constitution; improved provenance without modifying governed texts.
  - ADR-0012: Rejected — Workflow and Streamlining (combine Converge and Validate). Kept steps separate; no governed text changes.
+ - Tooling/Docs: Centralized ADR finalize-by-rename guidance in `AGENTS.md`; de-duplicated command docs; removed nonstandard `.mdc` directory.
 
 ## 2025-11-11 — Full Structural Integration & Repository Expansion
 - Updated **Rational Constitution** to merge all reforms from the prior amendment bundle directly into core text.  

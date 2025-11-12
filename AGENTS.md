@@ -43,6 +43,33 @@ Before `/check-in`, all active ADR drafts must be finalized via `/record`. The o
 
 ---
 
+## ADR Finalization Guidelines (Single Source of Truth)
+
+When finalizing an ADR via `/record`, use promote-by-rename as the default:
+
+- Move + rename the active draft from `log/ideas/_drafts/session-...-topic.md` to `log/ideas/adr-XXXX-kebab-title.md` (next number).
+- Then make minimal finalize edits only:
+  - Update Title/Number, `Status`, and `Date` (past tense voice).
+  - Ensure sections match the ADR template (Context, Decision, Rationale, Alternatives, Consequences, Changed Sections, Links).
+  - Add a concise “Changed Sections” block if governed texts are edited.
+  - Add Links to related ADRs and relevant files.
+- Remove the now-finalized draft from `_drafts/` (the git history preserves all iterations).
+
+Notes:
+- Prefer this flow over regenerating the ADR to avoid content drift and reduce risk/cost.
+- Command docs should reference this section rather than duplicate guidelines.
+
+---
+
+## Authoring Aids (Pointers)
+
+- Single source of truth for ADR authoring/finalization is this file (see “ADR Finalization Guidelines” above).
+- Default finalization flow: promote-by-rename the active draft to `log/ideas/adr-XXXX-title.md`, then minimally update metadata and required sections.
+- Provenance policy: governed texts remain clean (no inline markers). Maintain provenance via ADRs with “Changed Sections,” commit messages referencing ADR IDs, `log/changelog.md`, and `log/provenance.md`.
+- Avoid scattering guidance across extra files or folders; link back here from command docs.
+
+---
+
 ## Constitutional Core (Decision Filter)
 
 All proposals must satisfy:
