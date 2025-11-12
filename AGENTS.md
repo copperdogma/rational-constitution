@@ -8,7 +8,7 @@ All deliberation is recorded through automatically maintained ADR drafts; all fi
 
 ## Guardrails
 - Only edit files when asked; **/check-in** is the explicit commit/push trigger.
-- During **/check-in**, the **only content change** allowed is updating `log/changelog.md`.
+- During **/check-in**, commit all intended changes (constitution/acts/ADRs/tooling) plus the prepared `log/changelog.md` entry; ensure no unintended files are included.
 - Keep constitutional/act text clean; no inline provenance markers or footers.
 - Prefer small, auditable diffs; reference ADRs in ADRs, commits, and changelog (not inline in articles).
 

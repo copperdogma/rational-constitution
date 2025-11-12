@@ -6,7 +6,7 @@ When this command is invoked:
    - Prepare the edits to `constitution.md` and/or `acts/*.md`.
    - Apply those edits (keep governed texts clean; no inline provenance markers).
    - Ensure the ADR includes a “Changed Sections” block (files/sections).
-   - Generate/update `log/provenance.md` from ADR “Changed Sections” + git metadata.
+   - Generate/update `log/provenance.md` from ADR “Changed Sections”; record planned commit timestamp + subject (no SHA).
 3. Prepare a changelog entry (do not write yet).
    - Draft a new entry for `log/changelog.md` referencing ADR ID(s), files/sections, and a short impact summary.
    - Store it for insertion at `/check-in`.

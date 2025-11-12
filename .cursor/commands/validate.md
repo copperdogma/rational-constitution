@@ -19,7 +19,10 @@ git log --oneline -5
 		- No inline provenance markers in governed texts (`constitution.md`, `acts/*.md`).
 		- ADR includes “Changed Sections” mapping files/sections.
 		- Changelog entry prepared (not inserted) referencing ADR(s).
-		- `log/provenance.md` updated/generated at `/record`.
+		- `log/provenance.md` updated/generated at `/record` with planned commit timestamp + subject (no SHA).
+	•	Check-in readiness:
+		- Only intended files (constitution/acts/ADRs/tooling + changelog) will be staged.
+		- No unintended files are present; list and confirm intended set.
 
 3. Score Each Requirement / Tenet
 
