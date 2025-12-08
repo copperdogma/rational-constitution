@@ -43,6 +43,15 @@ Before `/check-in`, all active ADR drafts must be finalized via `/record`. The o
 
 ---
 
+### Brainstorm Exception to Auto-Recording
+- When Brainstorm mode is active, the assistant does not write to ADRs or files unless explicitly instructed.
+- Instead, it maintains an internal/session scratchpad of discussion (concepts, alternatives, tradeoffs, open questions).
+- On exit from Brainstorm, the assistant should first propose a structured summary of the discussion for appending to the active ADR draft; it will append only if you explicitly confirm. Normal auto-recording may resume thereafter.
+
+This preserves the “always records” principle via deliberate, batched recording rather than per-turn writes.
+
+---
+
 ## ADR Finalization Guidelines (Single Source of Truth)
 
 When finalizing an ADR via `/record`, use promote-by-rename as the default:
@@ -162,6 +171,7 @@ When proposing or revising anything, the AI must evaluate compliance with each t
 | `/record` | Finalize ADR and apply edits if Ready |
 | `/validate` | Pre-commit verification |
 | `/check-in` | Log, commit, and push on confirmation |
+| (see `.cursor/commands/`) | Project-specific commands live under `.cursor/commands/` |
 
 ---
 
@@ -172,6 +182,22 @@ When proposing or revising anything, the AI must evaluate compliance with each t
 3. **Decide:** if Ready → `/record`; if not approving now, either `/record` as Rejected or explicitly mark the draft as Paused.
 4. **Run `/validate`** to verify compliance and coherence.
 5. **Approve `/check-in`** to finalize, commit, and push.
+
+---
+
+## Conversation Modes
+
+### Brainstorm Mode
+- Purpose: Explore, hypothesize, stress-test, and refine ideas without making file changes.
+- Assistant behavior:
+  - No file edits and no ADR updates unless explicitly asked.
+  - Socratic probing: surface assumptions, alternatives, invariants, edge cases.
+  - Provide options with tradeoffs and “attack” tests before any recommendation.
+  - Draft candidate text inline only if requested; do not apply.
+- Exit:
+  - User verbally indicates (“Execute: ON” or similar), the assistant proposes a structured ADR summary and appends it only upon explicit confirmation, then normal operations may resume.
+
+Note: `/record` remains the sole action that promotes a draft to a numbered ADR and updates the changelog.
 
 ---
 

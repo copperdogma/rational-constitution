@@ -1,5 +1,13 @@
 # Changelog: Evolution of the Civic Mandate Republic
 
+## 2025-11-13 — Constitution Analysis and Brainstorm Mode
+- Analysis: Added comprehensive constitution analysis framework analyzing eight constitutions (Canada, Estonia, Germany, Japan, New Zealand, South Africa, Switzerland, USA) using structured schema and three-stage methodology (structural mapping, category-by-category comparison, design primitives extraction).
+- Analysis: Created constitution analysis outputs: `01_Constitution_Outlines.md`, `02_Comparative_Matrix.md`, `03_Common_Patterns_and_Outliers.md` identifying reusable constitutional design primitives.
+- Tooling/Docs: Added Brainstorm mode to `AGENTS.md` — exploration mode that suspends auto-recording until explicit confirmation, preserving "always records" principle via batched recording.
+- Tooling/Docs: Added `.cursor/commands/brainstorm.md` command for structured exploration without file edits.
+- Open Questions: Expanded `log/open-questions.md` with detailed questions on Bill of Rights architecture, rights frameworks, visitor rights, justice system, and constitutional design.
+- Draft: Created active ADR draft `session-20251112-bill-of-rights-architecture.md` exploring minimal, speech-protective Bill of Rights with subsumption-based limitation model (not yet finalized).
+
 ## 2025-11-12 — Foundational Design Principles and Clean-Text Provenance
 - Constitution: Added “Foundational Design Principles” (M‑5) in the Preamble and an “Interpretive Use” clause (non‑self‑executing).  
 - Constitution: Added a chapeau under Article I linking structure to the Principles.  
