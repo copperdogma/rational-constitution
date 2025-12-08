@@ -1,5 +1,9 @@
 # Changelog: Evolution of the Civic Mandate Republic
 
+## 2025-12-07 — Documentation and Repository Organization
+- Docs: Enhanced `README.md` with comprehensive ADR workflow explanation, including how ADRs are automatically created, the complete workflow (Discuss → Converge → Record → Validate → Check-in), and key principles of the system.
+- Organization: Merged `log/open-questions.md` into `log/to-do.md` to consolidate all to-do items and questions into a single file for easier management.
+
 ## 2025-11-13 — Constitution Analysis and Brainstorm Mode
 - Analysis: Added comprehensive constitution analysis framework analyzing eight constitutions (Canada, Estonia, Germany, Japan, New Zealand, South Africa, Switzerland, USA) using structured schema and three-stage methodology (structural mapping, category-by-category comparison, design primitives extraction).
 - Analysis: Created constitution analysis outputs: `01_Constitution_Outlines.md`, `02_Comparative_Matrix.md`, `03_Common_Patterns_and_Outliers.md` identifying reusable constitutional design primitives.
