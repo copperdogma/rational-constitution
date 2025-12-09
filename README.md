@@ -79,6 +79,28 @@ Every significant decision about the constitution or governance system is docume
 
 The system will create a draft ADR and continuously update it as the conversation evolves. When ready, finalize it with `/record`.
 
+### Handling Substantial Work from Past Conversations
+
+If you have substantial work from previous conversations (detailed frameworks, extensive research, etc.) that you want to incorporate:
+
+1. **Create a reference document first** to preserve the full original work:
+   - Save it in `log/ideas/[topic-name]/` (following the pattern of existing folders like `constitution-analysis/`, `justice/`, `prison-system/`)
+   - Or as `log/ideas/[topic-name].md` if it's a single file
+   - This preserves everything verbatim
+
+2. **Then discuss it with AI** to create the ADR:
+   - Reference the document: "Let's discuss the [Topic] in `log/ideas/[topic]/[file].md`"
+   - Or paste key sections and discuss
+   - The ADR will be created automatically as you discuss
+   - The ADR captures the **decision/rationale** (structured, concise)
+   - The reference doc preserves **all the details**
+
+3. **Link them together**:
+   - The ADR's "Links" section references the full document
+   - The reference doc can mention which ADR(s) it relates to
+
+This approach preserves all details while keeping ADRs focused and structured.
+
 ### Key Principles
 
 - **Always records**: Every decision is documented in an ADR.

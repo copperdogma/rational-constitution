@@ -1,5 +1,14 @@
 # Changelog: Evolution of the Civic Mandate Republic
 
+## 2025-12-08 — Repository Cleanup and Organization
+- Cleanup: Streamlined `log/to-do.md` by moving detailed framework content (Homeostatic Governance Framework, etc.) into reference documents and ADR drafts.
+- Organization: Created `log/ideas/reference/` directory to preserve substantial work from past conversations (e.g., `homeostatic-governance.md`).
+- Organization: Created `log/prompts/` directory for reusable prompt templates and documentation.
+- Docs: Enhanced `README.md` with guidance on handling substantial work from past conversations — create reference documents first, then discuss to create ADRs, linking them together.
+- ADRs: Updated multiple existing ADRs (0001, 0002, 0003, 0005, 0006, 0007, 0010) with open questions sections and organizational improvements.
+- Drafts: Created multiple ADR drafts capturing ongoing discussions on various topics (homeostatic governance, opercular spaces, incentive gradients, lobbying influence, property/privacy frameworks, economic harm constraints, foundational principles, justice/corrections, vulnerable classes).
+- Analysis: Updated `log/ideas/constitution-analysis/README.md` with organizational improvements.
+
 ## 2025-12-07 — Documentation and Repository Organization
 - Docs: Enhanced `README.md` with comprehensive ADR workflow explanation, including how ADRs are automatically created, the complete workflow (Discuss → Converge → Record → Validate → Check-in), and key principles of the system.
 - Organization: Merged `log/open-questions.md` into `log/to-do.md` to consolidate all to-do items and questions into a single file for easier management.

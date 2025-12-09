@@ -27,3 +27,6 @@ Replace politicians with **Public Mandates** — collective, measurable goals ci
 ## Related
 - **Civic Mandate Economy Act**, §§3–6.  
 - **Policycraft Framework** (ADR-0003).
+
+## Open Questions
+- **Policymaker/public mismatch**: If the public is just specifying OUTCOMES, how would this handle something like the "trans girls in sports" issue? That's a solidly political issue. Would the outcome be "full trans women=women equality?" Is that an outcome even? Is this a gray area that breaks my system? Are all things the public wants to see outcomes? I feel like a lot of them are "approaches to outcomes." For instance housing cost. Maybe everyone votes on an outcome of affordable housing. Building 2x the number of houses would massively drive down house prices, making people without houses thrilled and rich people who just lost half the value of their houses furious. How do we avoid tyranny of the majority/minority policies? They CAN provide the desired outcome efficiently in many cases. Even satisfaction surveys don't really cover it because they encourage tyranny of the majority. So then you get DEI-like over-weighting of minorities to compensate which is inherently political. TRICKY.

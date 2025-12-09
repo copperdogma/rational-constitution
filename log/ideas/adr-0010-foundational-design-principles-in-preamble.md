@@ -31,4 +31,7 @@ Adopt the minimized set (Option M‑5), titled “Foundational Design Principles
 - Acts and amendments shall be drafted to adhere to the Principles and interpreted to further them, consistent with Article IX.  
 - Provenance is tracked via ADRs, commit messages referencing ADR IDs, `log/changelog.md`, and the generated `log/provenance.md`.
 
+## Follow-up Considerations
+- **Constitutional Core as judicial guide**: Should this be explicit in the constitution? A strong "spirit of the law" that can both be used as a litmus test for new proposals AND as a guide for the judiciary? Has that ever been done before? Does it work? Is it a good idea?
+
 

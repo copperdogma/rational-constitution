@@ -25,4 +25,7 @@ Adopt a **Civic Mandate Republic** model where citizens define goals (Public Man
 - Creates need for symbolic executive figure (→ Chancellor).
 
 ## Supersedes
-Initial drafts of “Post-Politician Democracy” and “AI Proxy Governance.”
+Initial drafts of "Post-Politician Democracy" and "AI Proxy Governance."
+
+## Open Questions
+- **Stress test: Do we need lawmakers?** Can a public outcome voting system cover EVERYTHING? What about problems only seen by a few, especially experts? Non-sexy problems? Long-term design problems?

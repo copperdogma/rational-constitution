@@ -28,3 +28,6 @@ Establish a **Chancellor**: an elected, single-term executive figurehead with li
 ## Related
 - **Constitutional Amendment Bundle**, §1.  
 - **Civic Mandate Economy Act**, §8.
+
+## Open Questions
+- **Executive Council accountability**: What measurable selection, rotation, and performance metrics ensure the nonpartisan expert council remains aligned and auditable over time?

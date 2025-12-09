@@ -28,3 +28,6 @@ Mandate **Radical Transparency**: every government decision, dataset, model, and
 ## Related
 - **Civic Mandate Economy Act**, §10.  
 - **Constitutional Amendment Bundle**, §3.
+
+## Open Questions
+- **Constitutional principle**: Sunlight is the best disinfectant: make this a constitutional principle.
