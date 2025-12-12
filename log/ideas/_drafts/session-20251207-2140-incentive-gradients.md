@@ -213,3 +213,10 @@ Potential locations:
 
 > **Model political behavior as movement along incentive gradients; design institutions so ambition flows downhill into service, and corruption is steep, risky, and high-cost. Treat corruption as systemic equilibrium, not moral failure.**
 
+
+
+
+
+
+
+
